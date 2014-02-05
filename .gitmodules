@@ -1,0 +1,9 @@
+[submodule "hayai"]
+	path = hayai
+	url = https://github.com/nickbruun/hayai
+[submodule "containers/ART"]
+	path = containers/ART
+	url = https://github.com/Deschain/ART
+[submodule "containers/ytakano_radix_tree"]
+	path = containers/ytakano_radix_tree
+	url = https://github.com/ytakano/radix_tree.git
