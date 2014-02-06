@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="containers">
+      <UniqueIdentifier>{048a217f-fe36-4918-a2fa-fdcd77d6c2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers\ytakano_radix_tree">
+      <UniqueIdentifier>{cd7b69d0-d6ed-48bd-8820-3d090b7b7adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers\sparsehash">
+      <UniqueIdentifier>{e42fb5c0-5799-44d8-b97e-cc3c7ef4b1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers\sparsehash\internal">
+      <UniqueIdentifier>{92054702-9f59-4c7c-a11e-67fd9b157cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers\ternary_tree">
+      <UniqueIdentifier>{d347a457-f6e8-48dd-9880-b351399137bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers\ternary_tree\tst_detail">
+      <UniqueIdentifier>{58ccff77-b6d2-4c3d-aeef-cf0cec926bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="containers\ART">
+      <UniqueIdentifier>{cb021d65-738f-41ec-b7fc-200f9f9d2559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hayai">
+      <UniqueIdentifier>{8082bbf8-3f71-47ac-a355-9b3c815dcf83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\containers\ytakano_radix_tree\radix_tree.hpp">
+      <Filter>containers\ytakano_radix_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ytakano_radix_tree\radix_tree_it.hpp">
+      <Filter>containers\ytakano_radix_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ytakano_radix_tree\radix_tree_node.hpp">
+      <Filter>containers\ytakano_radix_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\sparsehash\template_util.h">
+      <Filter>containers\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\sparsehash\type_traits.h">
+      <Filter>containers\sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\sparsehash\internal\densehashtable.h">
+      <Filter>containers\sparsehash\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\sparsehash\internal\hashtable-common.h">
+      <Filter>containers\sparsehash\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\sparsehash\internal\libc_allocator_with_realloc.h">
+      <Filter>containers\sparsehash\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\sparsehash\internal\sparseconfig.h">
+      <Filter>containers\sparsehash\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\sparsehash\internal\sparsehashtable.h">
+      <Filter>containers\sparsehash\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ternary_tree\tst_detail\iteration_impl.hpp">
+      <Filter>containers\ternary_tree\tst_detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ternary_tree\tst_detail\tst_iterator_facade.hpp">
+      <Filter>containers\ternary_tree\tst_detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ternary_tree\tst_detail\tst_node.hpp">
+      <Filter>containers\ternary_tree\tst_detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ternary_tree\iterator_wrapper.hpp">
+      <Filter>containers\ternary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ternary_tree\structured_map.hpp">
+      <Filter>containers\ternary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ternary_tree\structured_set.hpp">
+      <Filter>containers\ternary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ternary_tree\ternary_tree.hpp">
+      <Filter>containers\ternary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ART\src\art.hpp">
+      <Filter>containers\ART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ART\src\art_it.hpp">
+      <Filter>containers\ART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\ART\src\art_node.hpp">
+      <Filter>containers\ART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_benchmarker.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_clock.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_console.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_console_outputter.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_default_test_factory.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_fixture.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_outputter.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_test.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_test_descriptor.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_test_factory.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hayai\src\hayai_test_result.hpp">
+      <Filter>hayai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\containers\Common.h">
+      <Filter>containers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\containers\sparsehash\dense_hash_map">
+      <Filter>containers\sparsehash</Filter>
+    </None>
+    <None Include="..\..\containers\sparsehash\dense_hash_set">
+      <Filter>containers\sparsehash</Filter>
+    </None>
+    <None Include="..\..\containers\sparsehash\sparse_hash_map">
+      <Filter>containers\sparsehash</Filter>
+    </None>
+    <None Include="..\..\containers\sparsehash\sparse_hash_set">
+      <Filter>containers\sparsehash</Filter>
+    </None>
+    <None Include="..\..\containers\sparsehash\sparsetable">
+      <Filter>containers\sparsehash</Filter>
+    </None>
+    <None Include="..\..\containers\ternary_tree\tst_detail\new_iterator_base.ipp">
+      <Filter>containers\ternary_tree\tst_detail</Filter>
+    </None>
+    <None Include="..\..\containers\ternary_tree\tst_detail\tst_implementation.ipp">
+      <Filter>containers\ternary_tree\tst_detail</Filter>
+    </None>
+    <None Include="..\..\containers\ternary_tree\tst_detail\tst_iterator_base.ipp">
+      <Filter>containers\ternary_tree\tst_detail</Filter>
+    </None>
+    <None Include="..\..\containers\ternary_tree\tst_detail\tst_search_results.ipp">
+      <Filter>containers\ternary_tree\tst_detail</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main.cpp" />
+    <ClCompile Include="..\..\containers\Common.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\containers\art.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\containers\sparsehash.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\containers\densehash.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\containers\ternary_tree.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\containers\ytakano_radix_tree.cpp">
+      <Filter>containers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
